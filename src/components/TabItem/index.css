@@ -1,0 +1,29 @@
+.tab-item {
+    margin: 15px;
+  }
+  
+  .button {
+    font-family: 'Roboto';
+    font-size: 25px;
+    font-weight: 700;
+    color: #ffffff;
+    background-color: transparent;
+    border-width: 0px;
+  }
+  
+  .activeBtn {
+    font-family: 'Roboto';
+    font-size: 25px;
+    font-weight: 700;
+    color: #fec653;
+    background-color: transparent;
+    border-width: 0px;
+    text-decoration: underline;
+  }
+  
+  @media screen and (max-width: 767px) {
+    .tab-item {
+      width: 80px;
+      margin: 10px;
+    }
+  }
